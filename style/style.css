@@ -427,3 +427,53 @@
     border: none;
     color: white;
 }
+
+/* checkout section */
+
+.checkout-contain {
+    padding: 100px 3%;
+    display: flex;
+    align-items: center;
+}
+
+.checkout-left {
+    position: relative;
+}
+.checkout-design {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+
+.checkout-title {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #35b8be;
+    font-size: 55px;
+    line-height: 1;
+    font-weight: 700;
+    letter-spacing: -0.03em;
+}
+
+.checkout-description {
+    margin-bottom: 40px;
+    color: #546285;
+    font-size: 18px;
+    line-height: 1.5;
+    letter-spacing: -0.02em;
+}
+
+.FAQ-btn {
+    min-height: 60px;
+    padding: 20px 35px;
+    border-radius: 6px;
+    background-color: #35b8be;
+    background-image: url("../images/btn-image.svg");
+    background-position: 0px 0px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 18px;
+    text-align: center;
+    border: none;
+    color: white;
+}
