@@ -477,3 +477,49 @@
     border: none;
     color: white;
 }
+
+/* footer section */
+
+.footer {
+    background-color: #f5fbfc;
+    background-image: url("../images/Pattern.svg");
+    background-position: 0% 100%;
+    background-size: contain;
+    padding: 100px 3% 60px;
+    background-repeat: no-repeat;
+}
+
+.footer-logo {
+    margin-bottom: 25px;
+}
+
+.logo-moto {
+    margin-bottom: 10px;
+    color: #546285;
+    font-size: 18px;
+    line-height: 1.5;
+    letter-spacing: -0.02em;
+}
+
+.footer-content {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+    grid-row-gap: 16px;
+    grid-column-gap: 16px;
+}
+
+.footer-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-column a {
+    margin-bottom: 12px;
+    padding-top: 8px;
+    padding-right: 6px;
+    padding-bottom: 8px;
+    color: #546285;
+    font-size: 16px;
+    text-decoration: none;
+}
+
