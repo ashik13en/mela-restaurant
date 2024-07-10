@@ -554,3 +554,35 @@
     border-color: rgba(126, 130, 143, 0.3);
     border-radius: 100px;
 }
+
+
+/* mobile version */
+
+@media only screen and (max-width: 640px) {
+    .banner-content {
+        font-size: 12px;
+    }
+
+    .navbar-right a {
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 14px;
+    }
+
+    .navbar-right button {
+        display: none;
+    }
+
+    .hero-content {
+        display: flex;
+        flex-direction: column-reverse
+    }
+    .hero-content__right-side img {
+        width: 350px;
+    }
+
+    .hero-content__title {
+        font-size: 40px;
+        margin-top: 20px;
+    }
+}
